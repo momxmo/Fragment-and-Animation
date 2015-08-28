@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">补间动画</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="app_name2">View代码版</string>
+    <string name="app_name1">View XML版</string>
+</resources>
