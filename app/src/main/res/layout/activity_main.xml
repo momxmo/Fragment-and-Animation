@@ -1,0 +1,60 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <EditText
+        android:id="@+id/et_main"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="请输入"/>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/tb_red"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="红色" />
+
+        <Button
+            android:id="@+id/tb_green"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="绿色" />
+
+        <Button
+            android:id="@+id/tb_blue"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="蓝色" />
+
+        <Button
+            android:id="@+id/tb_orange"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="橙色" />
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/get_fragmentArg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="获取Frament中的输入值"
+        />
+
+    <FrameLayout
+        android:id="@+id/fl"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+    </FrameLayout>
+
+
+</LinearLayout>
